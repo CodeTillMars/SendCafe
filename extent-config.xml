@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- report theme -->
+        <!-- standard, dark -->
+        <theme>standard</theme>
+
+        <!-- document encoding -->
+        <!-- defaults to UTF-8 -->
+        <encoding>UTF-8</encoding>
+
+        <!-- protocol for script and stylesheets -->
+        <!-- defaults to https -->
+        <protocol>https</protocol>
+
+        <!-- title of the document -->
+        <documentTitle>AAA PAS Certification Automation</documentTitle>
+
+        <!-- report name - displayed at top-nav -->
+
+        <reportName>
+            <![CDATA[
+               <!-- <img src='C:\\Users\\gpsxrav\\Desktop\\aaapascert_automation\\src\\main\\resources\\images\\aaapng.png' />-->
+
+                 <img src='https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.glassdoor.com%2Fsqll%2F226853%2Fstandard-chartered-bank-squarelogo-1530612144207.png&imgrefurl=https%3A%2F%2Fwww.glassdoor.co.in%2FBenefits%2FStandard-Chartered-Bank-India-Benefits-EI_IE226853.0%2C23_IL.24%2C29_IN115.htm&docid=NAqwixXEx9tXnM&tbnid=H0IbmTSRsWGAKM%3A&vet=10ahUKEwjYh4CcnLnlAhWHwI8KHVZlCYMQMwhqKAAwAA..i&w=200&h=200&bih=614&biw=1280&q=standard%20chartered%20logo&ved=0ahUKEwjYh4CcnLnlAhWHwI8KHVZlCYMQMwhqKAAwAA&iact=mrc&uact=8' />
+            ]]>
+        </reportName>
+
+        <!-- report headline - displayed at top-nav, after reportHeadline -->
+        <!--   <reportHeadline> PAS Certification Automation</reportHeadline>-->
+
+        <!-- global date format override -->
+        <!-- defaults to yyyy-MM-dd -->
+        <dateFormat>MM-dd-yyyy</dateFormat>
+
+        <!-- global time format override -->
+        <!-- defaults to HH:mm:ss -->
+        <timeFormat>HH:mm:ss</timeFormat>
+
+
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+                $(".logo-content").hide();
+                 $(".logo-container").html("<b>PAS Certification</b>");
+                });
+            ]]>
+        </scripts>
+
+        custom styles
+        <styles>
+            <![CDATA[
+                .report-name { padding-left: 10px; } .report-name > img { float: left;height: 100%;margin-left: 40px;margin-top: 3px;width: auto; }
+            ]]>
+        </styles>
+    </configuration>
+</extentreports>
