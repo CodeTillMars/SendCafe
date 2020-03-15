@@ -27,7 +27,7 @@ public class BaseTest {
 	public static ExtentReports extent;
 	public static ExtentTest test;
 	/*initiate Driver*/
-	public WebDriver driver;
+	public static WebDriver driver;
 	
 	
 	public String readingValueFromPropertyFile(String variableName) throws IOException {

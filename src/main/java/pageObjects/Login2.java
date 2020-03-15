@@ -2,28 +2,20 @@ package pageObjects;
 
 import static org.testng.Assert.assertEquals;
 
-import java.util.concurrent.TimeUnit;
-
-import org.junit.BeforeClass;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
+import com.relevantcodes.extentreports.LogStatus;
 
 import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
 import utilities.BaseTest;
+import utilities.ExtentTestManager;
 
 public class Login2 extends BaseTest implements LoginPageLocators{
 
 		
-//	@And("^User should be taken to successful homePage$")
-//	public void user_should_be_taken_to_successful_homePage() throws Exception {
-//		String text=driver.findElement(welcome_txtMsg).getText();
-//		assertEquals(text, "Hello Luke");
-//		System.out.println("Case successfuly pass user navigated to Home page from login class ");
-//	}
-	
+	@And("^User should be taken to successful homePage$")
+	public void user_should_be_taken_to_successful_homePage() throws Exception {
+		String text=driver.findElement(welcome_txtMsg).getText();
+		assertEquals(text, "Hello Luke");
+		System.out.println("Case successfuly pass user navigated to Home page from login class ");
+		ExtentTestManager.getTest().log(LogStatus.PASS, "Case successfuly pass user navigated to Home page from login class ");
+	}
 }

@@ -1,15 +1,20 @@
 package pageObjects;
 
+import static org.testng.Assert.assertEquals;
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import utilities.BaseTest;
 
 public class Login extends BaseTest implements LoginPageLocators{
 
+	
+	
 	
 	@Given("^User navigated to cafetownsend website$")
 	 public  void Login_Page() throws Throwable {
@@ -18,6 +23,7 @@ public class Login extends BaseTest implements LoginPageLocators{
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get(readingValueFromPropertyFile("Host"));
+		
 		 }
 	
 	@Given("^User enters a valid username$")
@@ -39,7 +45,7 @@ public class Login extends BaseTest implements LoginPageLocators{
 		 return this;
 	}
 
-	/*@And("^User should be taken to successful homePage$")
+/*	@And("^User should be taken to successful homePage$")
 	public void user_should_be_taken_to_successful_homePage() throws Exception {
 		String text=driver.findElement(welcome_txtMsg).getText();
 		assertEquals(text, "Hello Luke");

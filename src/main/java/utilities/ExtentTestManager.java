@@ -1,7 +1,6 @@
 
-package PASCertificationScripts;
+package utilities;
 
-import PASCertificationScripts.ExtentManager;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 

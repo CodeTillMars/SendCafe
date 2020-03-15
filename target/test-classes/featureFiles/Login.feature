@@ -7,7 +7,7 @@ Feature: Login Action testing
 	  	Given User navigated to cafetownsend website
 	  	And User enters a valid username
 	  	And User enters a valid Password
-		When User clicks on login button
+		And User clicks on login button
 	 	And User should be taken to successful homePage
 	 	And View employee details
 	 	And Click on back button in user details page

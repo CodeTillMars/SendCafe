@@ -1,4 +1,4 @@
-package PASCertificationScripts;
+package utilities;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import org.openqa.selenium.OutputType;
