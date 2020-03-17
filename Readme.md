@@ -5,7 +5,7 @@ This is a full automation BDD testing framework to cover the main functionality 
 
 
 <b>Framework Structure:</b>
-<br>
+
 ├── Test-output
 ├── driver
 ├── CucumberFrameWork.iml
@@ -37,5 +37,5 @@ This is a full automation BDD testing framework to cover the main functionality 
 │     └── Login.java
  
 
-</br>
+
 
