@@ -65,19 +65,19 @@ Feature: Login Action testing
 CASE-001 Given User navigated to cafetownsend website
 CASE-002 User enters a valid username ... passed
 CASE-003 And User enters a valid Password ... passed
-CASE-003 And User clicks on login button
-CASE-004 And User should be taken to successful homePage ... passed
-CASE-005 And User clicked create button to add new user ... passed
-CASE-006 And User entered first name ... passed 
-CASE-007 And User entered last name ... passed
-CASE-008 And user_entered_date_&_email ... passed
-CASE-009 And Click on Add button ... passed
-CASE-010 And Select employee ... passed
-CASE-011 And edit existing information ... passed
-CASE-012 And Click on update button ... passed
-CASE-013 And Select employee ... passed
-CASE-014 And Delete transaction ... passed
-CASE-025 And logout aplication ... passed
+CASE-004 And User clicks on login button
+CASE-005 And User should be taken to successful homePage ... passed
+CASE-006 And User clicked create button to add new user ... passed
+CASE-007 And User entered first name ... passed 
+CASE-008 And User entered last name ... passed
+CASE-009 And user_entered_date_&_email ... passed
+CASE-010 And Click on Add button ... passed
+CASE-011 And Select employee ... passed
+CASE-012 And edit existing information ... passed
+CASE-013 And Click on update button ... passed
+CASE-014 And Select employee ... passed
+CASE-015 And Delete transaction ... passed
+CASE-016 And logout aplication ... passed
 
 ======================================================================
 1 Scenarios (1 passed)
