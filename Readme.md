@@ -37,11 +37,12 @@ This is a full automation BDD testing framework to cover the main functionality 
 ```
 
 ## Pre-requestes:
-Pre-requestes:
-Cucumber, Junit, JAVA
+```bash
+
+Cucumber,Selenium, Junit, JAVA
 chromedriver (tested with ChromeDriver 81.0.4044.20 )
 
-
+```
 ## Execution Steps:
 ```bash
 
