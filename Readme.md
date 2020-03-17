@@ -48,8 +48,14 @@ chromedriver (tested with ChromeDriver 81.0.4044.20 )
 
 Execution steps:
 git clone https://github.com/CodeTillMars/SendCafe.git
-```
 
+
+```
+## Run Path Image
+```bash
+![](https://github.com/CodeTillMars/SendCafe/blob/master/Run%20image.png)
+
+```
 ## Latest execution report:
 ```bash
 Feature: Login Action testing
