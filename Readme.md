@@ -46,7 +46,7 @@ chromedriver (tested with ChromeDriver 81.0.4044.20 )
 ## Execution steps:
 ```bash
 
-Execution steps:
+Execution steps: Clone the project to local machine
 git clone https://github.com/CodeTillMars/SendCafe.git
 
 
