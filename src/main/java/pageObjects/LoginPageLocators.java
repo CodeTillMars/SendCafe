@@ -1,7 +1,6 @@
 package pageObjects;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 
 
 public interface LoginPageLocators {
@@ -10,4 +9,5 @@ public interface LoginPageLocators {
 	By password_txtBox = By.xpath(".//*[@id='login-form']/fieldset/label[2]/input");
 	By login_Btn = By.xpath(".//*[@id='login-form']/fieldset/button");
 	By welcome_txtMsg = By.xpath(".//*[@id='greetings']");
+	By logout_Btn= By.xpath(".//*[@ng-click='logout()']");
 }

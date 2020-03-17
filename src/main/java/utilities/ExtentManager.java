@@ -1,12 +1,10 @@
 package utilities;
 
-import com.relevantcodes.extentreports.ExtentReports;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import com.relevantcodes.extentreports.ExtentReports;
 
 public class ExtentManager {
     private static ExtentReports instance;

@@ -9,13 +9,12 @@ Feature: Login Action testing
 	  	And User enters a valid Password
 		And User clicks on login button
 	 	And User should be taken to successful homePage
-	 	And View employee details
-	 	And Click on back button in user details page
-	 	And Click on create cutomer button in home page
-	 	And Enter user details for adding the user
+	 	And User clicked create button to add new user
+	 	And User entered first name 
+	 	And User entered last name
+	 	And user_entered_date_&_email
 	 	And Click on Add button
 	 	And Select employee 
-	 	And Click on edit button in home page
 	 	And edit existing information
 	 	And Click on update button
 	 	And Select employee
