@@ -1,4 +1,4 @@
-# Cafetownsend Test suite
+# Cafetownsend Test Suite
 This is a full automation BDD testing framework to cover the main functionality testing for cafetownsend project using **selenium** and **cucumber** frameworks. The tesing framework was designed to meet the **PageObjects** desing pattern.
 
 ## Framework Structure:
@@ -43,7 +43,7 @@ Cucumber, Junit, JAVA
 chromedriver (tested with ChromeDriver 81.0.4044.20 )
 
 
-## Execution steps:
+## Execution Steps:
 ```bash
 
 Execution steps: Clone the project to local machine
@@ -55,7 +55,7 @@ git clone https://github.com/CodeTillMars/SendCafe.git
 ![](https://github.com/CodeTillMars/SendCafe/blob/master/Run%20image.png)
 
 
-## Latest execution report:
+## Latest Execution Report:
 ```bash
 Feature: Login Action testing
 	User must be able to Create user, edit user. delete user after successfuly login into account using correct credentials
