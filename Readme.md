@@ -52,7 +52,10 @@ git clone https://github.com/CodeTillMars/SendCafe.git
 
 ## Latest execution report:
 ```bash
-⇒  nosetests-3.4 -vs --rednose testcases --tc-file config.ini --logging-level WARNING
+Feature: Login Action testing
+	User must be able to Create user, edit user. delete user after successfuly login into account using correct credentials
+
+  Scenario: Login into the account with valid credentials # C:/Users/pc/Desktop/CucumberFrameWork/src/test/java/featureFiles/Login.feature:5
 
 CASE-001 Given User navigated to cafetownsend website
 CASE-002 User enters a valid username ... passed
