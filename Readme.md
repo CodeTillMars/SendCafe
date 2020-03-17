@@ -87,8 +87,8 @@ CASE-025 And logout aplication ... passed
 ```
 
 
-## Test Execution Report Image
-
+## Test Execution Report 
+![](https://github.com/CodeTillMars/SendCafe/blob/master/runReport.PNG)
 
 
 ## Test Cases:
