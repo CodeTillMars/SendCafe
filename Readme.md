@@ -52,10 +52,9 @@ git clone https://github.com/CodeTillMars/SendCafe.git
 
 ```
 ## Run Path Image
-```bash
 ![](https://github.com/CodeTillMars/SendCafe/blob/master/Run%20image.png)
 
-```
+
 ## Latest execution report:
 ```bash
 Feature: Login Action testing
@@ -88,12 +87,9 @@ CASE-025 And logout aplication ... passed
 ```
 
 
-**Command to execute this test case**
-```bash
-cd cafeTownsendTesting
-export PYTHONPATh='./'
-nosetests-3.4 -sv --logging-level=WARNING --rednose --tc-file=config.ini testcases/test_c_edit_delete_employees.py:UpdateEmployeesTestCases.test004_delete_user_from_main_page
-```
+## Test Execution Report Image
+
+
 
 ## Test Cases:
 This test suite support HTML report using extent report.
