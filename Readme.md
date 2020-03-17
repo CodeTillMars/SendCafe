@@ -94,10 +94,10 @@ CASE-016 And logout aplication ... passed
 ## Test Cases:
 This test suite support HTML report using extent report.
 
-here is the list of the test cases:
+here is the list of the test cases desinged using BDD framewaork which allows automation of functional validation in easily readable and understandable format (like plain English) to Business Analysts, Developers, Testers, etc
 
 ```
-        """ CAFEE-001
+        """ CASE-001
 
         * Test login with provider credential.
         **Test Scenario:**
@@ -108,7 +108,7 @@ here is the list of the test cases:
         """
     
 
-        """ CAFEE-002
+        """ CASE-002
 
         * Crete new user with valid data.
         **Test Scenario:**
@@ -117,7 +117,7 @@ here is the list of the test cases:
         """
 
 
-        """ CAFEE-003
+        """ CASE-003
 
         * Edit user with valid data.
         **Test Scenario:**
@@ -127,7 +127,7 @@ here is the list of the test cases:
         """
 
 
-        """ CAFEE-004
+        """ CASE-004
 
         * Delete user from the edit page.
         **Test Scenario:**
@@ -137,7 +137,7 @@ here is the list of the test cases:
         """
 		
 		
-		""" CAFEE-005
+	""" CASE-005
 
         * Logout from website.
         **Test Scenario:**
