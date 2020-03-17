@@ -19,7 +19,6 @@ This is a full automation BDD testing framework to cover the main functionality 
 |   ├── utilities
 │     ├── BaseTest.java
 │     ├── CommonMethods.java
-|     ├── DeleteExistingUserLocators.java
 │     └── ExtentTestManager.java
 └── test
 |   ├── cucumberTest
